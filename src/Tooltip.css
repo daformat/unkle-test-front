@@ -92,3 +92,18 @@
   transform: translateX(0) translateY(-50%);
   border-left-color: var(--tooltip-background-color);
 }
+
+.Tooltip-Animate {
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+/* CSS animation */
+@keyframes example {
+  0%   {left: 0px}
+  25%  {left:100px}
+  50%  {left:100px}
+  75%  {left:200px}
+  100% {left:200px}
+}
