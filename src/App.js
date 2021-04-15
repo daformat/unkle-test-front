@@ -205,7 +205,7 @@ function App() {
             <div className="example-wrapper">
               <p>HtmlLink</p>
               <Tooltip 
-                content={[<a href="https://www.youtube.com/watch?v=UpMX1OLlwq0" target="_blank">Click: Yee-haw!</a>]}
+                content={[<a href="https://www.youtube.com/watch?v=yBLdQ1a4-JI" target="_blank">Click: Yee-haw!</a>]}
                 direction="bottom"
                 closedelay="1500"
 
