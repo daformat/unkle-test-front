@@ -28,7 +28,10 @@ const Tooltip = (props) => {
       {/* Wrapping */}
       {props.children}
       {active && (
-        <div className={`Tooltip-Tip ${props.direction || "top"}`}>
+        <div 
+          className={`Tooltip-Tip ${props.direction || "top"} ` + (props.animate ? "Tooltip-Animate" : "")}
+          style={{backgroundColor:props.background}}
+        >
           {/* Content */}
           {props.content}
         </div>
